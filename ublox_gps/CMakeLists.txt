@@ -58,7 +58,7 @@ target_link_libraries(ublox_gps PUBLIC
   ${geometry_msgs_TARGETS}
   ${rcl_interfaces_TARGETS}
   rclcpp::rclcpp
-  rclcpp_components::component
+  ${rclcpp_components_LIBRARIES}
   ${nmea_msgs_TARGETS}
   ${rtcm_msgs_TARGETS}
   ${sensor_msgs_TARGETS}
